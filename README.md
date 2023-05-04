@@ -10,4 +10,10 @@ Enter the folder of the required build and run
 
 `docker compose up`
 
+# Building arm64v8 Libraries
+Enter the folder of the required build and run
+
+`docker run --rm --privileged hypriot/qemu-register`
+`docker compose up`
+
 Once the scripts have completed the built binaries can be found in the '_output' folder under the appropriate sub directory.
