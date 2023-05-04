@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    linux:       
+        build: ./Docker
+        container_name: ubuntu-18.04-h3lib_arm64-v8
+        volumes:
+            - ./../../_output/arm64-v8/1804:/home/output            

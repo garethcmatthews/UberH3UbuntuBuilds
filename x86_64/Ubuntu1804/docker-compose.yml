@@ -1,7 +1,7 @@
 version: "3.8"
 services:
     linux:
-        build: ./
+        build: ./Docker
         container_name: h3build-ubuntu-1804
         volumes:
-            - ./../output/1804:/home/output
+            - ./../../_output/x86_64/1804:/home/output

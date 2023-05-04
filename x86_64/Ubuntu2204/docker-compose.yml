@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    linux:
+        build: ./Docker
+        container_name: ubuntu-22.04-h3lib
+        volumes:
+            - ./../../_output/x86_64/2204:/home/output

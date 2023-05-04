@@ -1,7 +1,0 @@
-version: "3.8"
-services:
-    linux:
-        build: ./
-        container_name: h3build-ubuntu-2204
-        volumes:
-            - ./../output/2204:/home/output
