@@ -1,20 +1,20 @@
 #!/bin/bash
 
-apt update
+apt-get update
 
-DEBIAN_FRONTEND=noninteractive apt install --yes tzdata
+DEBIAN_FRONTEND=noninteractive apt-get install --yes tzdata
 
-apt install --yes wget
-apt install --yes build-essential 
-apt install --yes libssl-dev
-apt install --yes curl
-apt install --yes nano
-apt install --yes git
-apt install --yes libtool
-apt install --yes clang-format
-apt install --yes cmake-curses-gui
-apt install --yes lcov
-apt install --yes doxygen
+apt-get install --yes wget
+apt-get install --yes build-essential 
+apt-get install --yes libssl-dev
+apt-get install --yes curl
+apt-get install --yes nano
+apt-get install --yes git
+apt-get install --yes libtool
+apt-get install --yes clang-format
+apt-get install --yes cmake-curses-gui
+apt-get install --yes lcov
+apt-get install --yes doxygen
 
 cd /tmp
 wget https://github.com/Kitware/CMake/releases/download/v3.20.0/cmake-3.20.0.tar.gz

@@ -1,16 +1,16 @@
 #!/bin/bash
 
-apt update
+apt-get update
 
-apt install --yes git
-apt install --yes cmake 
-apt install --yes make
-apt install --yes gcc
-apt install --yes libtool
-apt install --yes clang-format
-apt install --yes cmake-curses-gui
-apt install --yes lcov
-apt install --yes doxygen
+apt-get install --yes git
+apt-get install --yes cmake 
+apt-get install --yes make
+apt-get install --yes gcc
+apt-get install --yes libtool
+apt-get install --yes clang-format
+apt-get install --yes cmake-curses-gui
+apt-get install --yes lcov
+apt-get install --yes doxygen
 
 cd /home
 
