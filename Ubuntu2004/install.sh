@@ -35,7 +35,7 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 cmake --build .
 
-rm -rf /home/output
+rm -rf /home/output/*
 cp /home/h3/build/bin/cellToBoundary /home/output
 cp /home/h3/build/bin/cellToBoundaryHier /home/output
 cp /home/h3/build/bin/cellToLatLng /home/output
